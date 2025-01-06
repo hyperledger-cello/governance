@@ -1,19 +1,15 @@
 teams:
   - name: cello-admins
     maintainers:
-      - ryjones
-    members:
       - yeasy
-#    members:
+    members:
       - fengyangsy
       - xichen1
       - zhuyuanmao
   - name: cello-contributors
     maintainers:
-      - ryjones
-    members:
       - yeasy
-#    members:
+    members:
       - YoungHypo
       - fengyangsy
       - link1697
@@ -22,10 +18,8 @@ teams:
       - zhuyuanmao
   - name: cello-maintainers
     maintainers:
-      - ryjones
-    members:
       - yeasy
-#    members:
+    members:
       - fengyangsy
       - xichen1
       - zhuyuanmao
@@ -39,10 +33,9 @@ repositories:
     teams:
       staff: maintain
     visibility: public
-#  - name: cello
-#    teams:
-#      cello-admins: admin
-#      cello-analytics-maintainers: write
-#      cello-contributors: write
-#      cello-maintainers: maintain
-#    visibility: public
+  - name: cello
+    teams:
+      cello-admins: admin
+      cello-contributors: write
+      cello-maintainers: maintain
+    visibility: public
